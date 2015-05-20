@@ -1,5 +1,3 @@
-h1 Test
-
 .navbar.navbar-default
   .fluid-container
     .navbar-header
@@ -8,4 +6,5 @@ h1 Test
         span.icon-bar
         span.icon-bar
       a.navbar-brand ArchDragon
-== outlet
+section#main
+  == outlet
