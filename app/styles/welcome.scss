@@ -1,0 +1,10 @@
+$color-section-text-color: #fff;
+$color-section-bg: #333;
+
+#welcome-in-game {
+  text-align: center;
+  color: $color-section-text-color;
+  background-color: $color-section-bg;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
