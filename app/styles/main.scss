@@ -1,5 +1,3 @@
-// @import 'compass/css3';
-
 $nav-color: #fff;
 $nav-bg: #3498db;
 
@@ -7,7 +5,7 @@ nav.navbar {
   color: $nav-color;
   background-color: $nav-bg;
   border-width: 0;
-  //@include border-radius(0);
+  @include border-radius(0);
 }
 
 nav.navbar a,
