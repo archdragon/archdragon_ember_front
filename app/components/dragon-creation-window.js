@@ -4,11 +4,13 @@ export default Ember.Component.extend({
   scrollPosition: 0,
   scrollMin: 0,
   scrollMax: 2,
+  cellWidth: 100,
   startCarousel: function() {
   }.on('didInsertElement'),
   scrollChanged: function() {
     var scrollPosition = this.get('scrollPosition');
-    var leftOffset = scrollPosition * 100;
+    var leftOffset = scrollPosition * this.get('cellWidth');
+    leftOffset = 0 - leftOffset;
     Ember.$('.scrollable-container').css('left', leftOffset + '%');
   }.observes('scrollPosition'),
   actions: {

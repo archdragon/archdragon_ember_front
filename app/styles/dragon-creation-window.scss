@@ -38,10 +38,20 @@
 #dragon-selection #cells,
 #dragon-selection .cell,
 #dragon-selection .scrollable-container {
-  position: absolute;
+  position: relative;
   height: 100%;
   width: 100%;
   z-index: 1;
+}
+
+#dragon-selection .scrollable-container {
+  width: 300%;
+  transition: 0.3s all ease-out;
+}
+
+#dragon-selection .cell {
+  float: left;
+  width: 33.33%;
 }
 
 #dragon-selection #cells {
@@ -57,5 +67,5 @@
 }
 
 #dragon-selection .dragon-earth {
-  background-color: brown;
+  background-color: green;
 }
