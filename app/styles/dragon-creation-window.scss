@@ -1,5 +1,4 @@
 #dragon-selection {
-  background-color: red;
   min-height: 300px;
 
   // Arrows
@@ -51,7 +50,14 @@
 
 #dragon-selection .cell {
   float: left;
+  text-align: center;
   width: 33.33%;
+}
+
+#dragon-selection .cell button {
+  z-index: 3;
+  position: absolute;
+  bottom: 1em;
 }
 
 #dragon-selection #cells {
@@ -59,13 +65,10 @@
 }
 
 #dragon-selection .dragon-water {
-  background-color: blue;
 }
 
 #dragon-selection .dragon-fire {
-  background-color: yellow;
 }
 
 #dragon-selection .dragon-earth {
-  background-color: green;
 }
