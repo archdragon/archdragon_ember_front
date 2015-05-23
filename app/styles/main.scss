@@ -1,15 +1,16 @@
-$nav-color: #fff;
-$nav-bg: #3498db;
+@import 'compass';
 
-nav.navbar {
-  color: $nav-color;
-  background-color: $nav-bg;
-  border-width: 0;
-  @include border-radius(0);
+html {
+  min-height: 100%;
+  position: relative;
 }
 
-nav.navbar a,
-nav.navbar a.navbar-brand
-{
-  color: $nav-color;
+body {
+  height: 100%;
+}
+
+.stretched-vertically {
+  position: absolute;
+  height: 100%;
+  width: 100%;
 }
