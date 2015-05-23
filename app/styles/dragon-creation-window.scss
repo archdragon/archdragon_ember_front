@@ -1,0 +1,61 @@
+#dragon-selection {
+  background-color: red;
+  min-height: 300px;
+
+  // Arrows
+  .arrow {
+    position: absolute;
+    top: 40%;
+    font-size: 3em;
+    transition: 0.3s all;
+    z-index: 2;
+  }
+
+  .arrow:hover {
+    cursor: pointer;
+  }
+
+  .left-arrow {
+    left: 1em;
+  }
+
+  .left-arrow:hover {
+    padding-right: 0.25em;
+    margin-left: -0.25em;
+  }
+
+  .right-arrow {
+    right: 1em;
+  }
+
+  .right-arrow:hover {
+    padding-left: 0.25em;
+    margin-right: -0.25em;
+  }
+}
+
+// Cells
+#dragon-selection #cells,
+#dragon-selection .cell,
+#dragon-selection .scrollable-container {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+
+#dragon-selection #cells {
+  overflow: hidden;
+}
+
+#dragon-selection .dragon-water {
+  background-color: blue;
+}
+
+#dragon-selection .dragon-fire {
+  background-color: yellow;
+}
+
+#dragon-selection .dragon-earth {
+  background-color: brown;
+}

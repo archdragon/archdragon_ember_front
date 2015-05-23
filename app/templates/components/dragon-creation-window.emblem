@@ -1,0 +1,11 @@
+section#dragon-selection.stretched-vertically
+  .left-arrow.arrow{action "scroll" "-1" on="click"}
+    .glyphicon.glyphicon-chevron-left
+  .right-arrow.arrow{action "scroll" "1" on="click"}
+    .glyphicon.glyphicon-chevron-right
+
+  #cells
+    .scrollable-container
+      .cell.dragon-fire
+      .cell.dragon-water
+      .cell.dragon-earth
