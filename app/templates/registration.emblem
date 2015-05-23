@@ -3,3 +3,5 @@ section#welcome-in-game
   p ArchDragon is a browser-based games where players can create their own dragons, fight others and go on adventures.
   p
     button.btn.btn-primary.btn-lg Create your first dragon!
+
+= dragon-creation-window
