@@ -3,8 +3,9 @@ $color-section-bg: #333;
 
 #welcome-in-game {
   text-align: center;
-  color: $color-section-text-color;
   background-color: $color-section-bg;
+  color: $color-section-text-color;
+  height: 100%;
   padding-top: 3em;
   padding-bottom: 3em;
 }
