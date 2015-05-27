@@ -4,10 +4,16 @@
   // Arrows
   .arrow {
     position: absolute;
-    top: 40%;
+    height: 100%;
+    vertical-align: middle;
     font-size: 3em;
-    transition: 0.3s all;
     z-index: 2;
+    padding: 0 50px;
+    span {
+      position: relative;
+      transition: 0.3s all;
+      top: 40%;
+    }
   }
 
   .arrow:hover {
@@ -18,7 +24,7 @@
     left: 1em;
   }
 
-  .left-arrow:hover {
+  .left-arrow:hover span {
     padding-right: 0.25em;
     margin-left: -0.25em;
   }
@@ -27,7 +33,7 @@
     right: 1em;
   }
 
-  .right-arrow:hover {
+  .right-arrow:hover span {
     padding-left: 0.25em;
     margin-right: -0.25em;
   }
@@ -54,10 +60,15 @@
   width: 33.33%;
 }
 
-#dragon-selection .cell button {
-  z-index: 3;
+#dragon-selection .cell .button-container {
+  width: 100%;
+  bottom: 2em;
   position: absolute;
-  bottom: 1em;
+  z-index: 3;
+}
+
+#dragon-selection .cell button {
+  margin: 0 auto;
 }
 
 #dragon-selection #cells {
