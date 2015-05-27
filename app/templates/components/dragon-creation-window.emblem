@@ -1,14 +1,17 @@
 section#dragon-selection.stretched-vertically
   .left-arrow.arrow{action "scroll" "-1" on="click"}
-    .glyphicon.glyphicon-chevron-left
+    span.glyphicon.glyphicon-chevron-left
   .right-arrow.arrow{action "scroll" "1" on="click"}
-    .glyphicon.glyphicon-chevron-right
+    span.glyphicon.glyphicon-chevron-right
 
   #cells
     .scrollable-container
       .cell.dragon-fire
-        button.btn.btn-default.btn-lg Create
+        .button-container
+          button.btn.btn-default.btn-lg Create
       .cell.dragon-water
-        button.btn.btn-default.btn-lg Create
+        .button-container
+          button.btn.btn-default.btn-lg Create
       .cell.dragon-earth
-        button.btn.btn-default.btn-lg Create
+        .button-container
+          button.btn.btn-default.btn-lg Create
