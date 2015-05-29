@@ -52,5 +52,9 @@ module.exports = function(environment) {
 
   }
 
+  ENV['simple-auth'] = {
+      authorizer: 'simple-auth-authorizer:devise'
+  };
+
   return ENV;
 };

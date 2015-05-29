@@ -1,0 +1,6 @@
+form submit="authenticate"
+  label for="identification" Login
+  input value=identification placeholder='Enter Login'
+  label for="password" Password
+  input value=password placeholder='Enter Password' type='password'
+  button type="submit" Login
