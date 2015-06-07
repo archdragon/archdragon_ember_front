@@ -21,7 +21,7 @@
   "devDependencies": {
     "broccoli-asset-rev": "^2.0.2",
     "broccoli-emblem-compiler": "^0.3.19",
-    "ember-cli": "0.2.5",
+    "ember-cli": "0.2.7",
     "ember-cli-app-version": "0.3.3",
     "ember-cli-babel": "^5.0.0",
     "ember-cli-compass-compiler": "0.0.18",
