@@ -5,10 +5,10 @@ export default Ember.Controller.extend({
     authenticate: function() {
       alert('Authenticating');
 
-      var _this = this;
+      //var _this = this;
 
       // get the properties sent from the form and if there is any attemptedTransition set
-      var attemptedTrans = this.get('attemptedTransition');  
+      //var attemptedTrans = this.get('attemptedTransition');  
       var data =           this.getProperties('username_or_email', 'password');
 
       // clear the form fields
